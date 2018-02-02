@@ -1,4 +1,4 @@
-body, html, ul, h1, h2 {
+body, html, ul, h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 }
@@ -8,27 +8,30 @@ body {
 }
 header {
 	border: 1px solid black;
-	height: 155px;
 }
-.center { 
+ul {
+	list-style-type: none;
+}
+.wrapper { 
 	width: 1100px;
+	height: inherit;
 	margin: 0 auto;
+
 }
 .headerTopLine {
 	background-color: gainsboro;
 	height: 20px;
 }
-
 .headerTopInfo {
-	background-color: whitesmoke;
-	height: 50px;
+	background-color: #eeeeee;
+	line-height: 50px;
 	border: 1px solid black;
 }
-.headerTopInfoCenter {
+.headerTopInfo .wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;	
+	align-items: center;
 }
 .topInfoLogo {
 	color: firebrick;
@@ -40,17 +43,50 @@ header {
 	color: firebrick;
 	
 }
-.headerMainMenu {
-	height: 50px;
+.headerMenu {
+	line-height: 50px;
 	background-color: firebrick;
 }
 
-.headerMainMenu ul {
+.headerMenu .wrapper ul {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
+.headerMenu a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 20px;
+	
+}
+.headerMenu a.active {
+	background-color: #7d0202;
+}
+.headerMenu li:hover {
+	background-color: #7d0202;
+}
 .headerSubmenu {
-	height: 40px;
-	background-color: whitesmoke;
+	background-color: #eeeeee;
+}
+.headerSubmenu .wrapper {
+	line-height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid black;
+}
+.headerSubmenu .wrapper ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.headerSubmenu a {
+	color: #666;
+	padding: 0 30px;
+
+}
+.headerSubmenu a:hover {
+	text-decoration: none;
 }
