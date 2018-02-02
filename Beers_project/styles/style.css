@@ -1,0 +1,56 @@
+body, html, ul, h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+}
+header {
+	border: 1px solid black;
+	height: 155px;
+}
+.center { 
+	width: 1100px;
+	margin: 0 auto;
+}
+.headerTopLine {
+	background-color: gainsboro;
+	height: 20px;
+}
+
+.headerTopInfo {
+	background-color: whitesmoke;
+	height: 50px;
+	border: 1px solid black;
+}
+.headerTopInfoCenter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;	
+}
+.topInfoLogo {
+	color: firebrick;
+	font-size: 30px;
+	
+}
+.topInfoSlogan {
+	font-size: 14px;
+	color: firebrick;
+	
+}
+.headerMainMenu {
+	height: 50px;
+	background-color: firebrick;
+}
+
+.headerMainMenu ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.headerSubmenu {
+	height: 40px;
+	background-color: whitesmoke;
+}
