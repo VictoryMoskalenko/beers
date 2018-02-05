@@ -2,10 +2,6 @@ html, body, h1, h2, h3, ul, li, p {
     margin: 0;
     padding: 0;
 }
-/*
-body {
-	width: 100%;
-}*/
 
 li {
 	list-style-type: none;
@@ -124,13 +120,13 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 
 .leftMainBlock {
 	box-sizing: border-box;
 	width: 50%;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	padding: 10px 5px 20px;
 
 }
@@ -151,7 +147,7 @@ img {
 .rightMainBlock {
 	box-sizing: border-box;
 	width: 49%;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -160,7 +156,7 @@ img {
 .rightBlock {
 	box-sizing: border-box;
 	width: 49%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 15px 5px;
 }
 .centerBlock h3,
@@ -182,7 +178,7 @@ footer .wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	
 }
 .footerLeft {
