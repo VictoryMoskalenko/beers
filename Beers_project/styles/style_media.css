@@ -1,0 +1,185 @@
+
+@media screen and (max-width: 500px) {
+
+	.wrapper {
+		width: 100%;
+	}
+
+	.headerName .wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.headerLogo {
+		margin-bottom: -10px;
+	}
+
+	.headerSlogan {
+	 	font-size: 18px;
+	 }
+
+	.headerMenu .wrapper ul {
+		width: 100%;
+		display: flex;
+	 	justify-content: space-around;
+	 	flex-wrap: wrap;
+	}
+
+	.menuNav {
+	 	width: 100%;
+	 	display: flex;
+	 	justify-content: space-around;
+	 	flex-wrap: wrap;
+	 }
+
+	.headerSubmenu .wrapper {
+		display: flex;
+	 	flex-direction: column;
+	 	line-height: ;
+	 }
+	.headerSubmenuLeft {
+		padding-left: 0px;
+	}
+	.subLeft {
+		display: flex;
+		flex-direction: row;
+	 	justify-content: space-around;
+	 	flex-wrap: wrap;
+	 }
+
+	.subLeft a {
+	 	margin: 0;
+	 	padding: 0 10px;
+	 	text-align: center;	
+	 }
+
+	 .headerSubmenuLeft a,
+	 .headerSubmenuRight a,
+	 .headerSubmenuRight li,
+	 .footerLeft a {
+	 	font-size: 18px;
+	 }
+	 
+	.subRight {
+		display: flex;
+	 	justify-content: flex-start;
+	 }
+
+	.mainBlock .wrapper,
+	 footer .wrapper {
+		display: flex;
+		flex-direction: column;	
+	}
+
+	.leftMainBlock,
+	.rightMainBlock,
+	.centerBlock,
+	.rightBlock {
+		width: 100%;
+	}
+
+	.leftMainBlock,
+	.centerBlock {
+		padding-bottom: 0;	
+	}
+
+	.leftMainBlock h2 {
+		font-size: 24px;
+	}
+
+	.centerBlock p,
+	.rightBlock p,
+	.leftMainBlock p {
+	 	font-size: 17px;
+	}
+
+	.leftMainBlock h3,
+	.centerBlock h3,
+	.rightBlock h3 {
+		font-size: 21px;
+	}
+
+	.footerLeft {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	.footerRight  {
+		display: flex;
+		flex-direction: column;
+		width: 100%;	
+	}
+
+	.footerRightBottom,
+	.footerRightTop {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+ 	.wrapper {
+ 		width: 100%;
+ 	}
+	.headerLogo {
+		padding-left: 20px;
+	}
+	.headerSlogan {
+		padding-right: 20px;
+		font-size: 17px;
+	}
+	.headerSubmenuLeft {
+		padding-left: 0px;
+	}
+	.headerSubmenuLeft a {
+		font-size: 15px;
+		margin-right: 0;
+	}
+
+	.subLeft li {
+		margin: 0 15px;
+	}
+
+ 	.mainBlock .wrapper {
+ 		display: flex;
+ 		flex-direction: column;
+ 	}
+
+ 	.leftMainBlock,
+	.rightMainBlock {
+		width: 100%;
+	}
+	.leftMainBlock {
+		padding-bottom: 0;
+	}
+	.leftMainBlock p {
+		font-size: 16px;
+	}
+
+	.rightMainBlock {
+	display: flex;
+	justify-content: space-between;
+	}
+
+	.centerBlock,
+	.rightBlock {
+		width: 49%;
+	}
+	.centerBlock p,
+	.rightBlock p {
+		font-size: 16px;
+	}
+	.centerBlock h3,
+	.rightBlock h3 {
+		font-size: 20px;
+	}
+
+	.footerLeft {
+		width: 30%;
+	}
+}
+@media screen and (min-width: 800px) {
+	
+}
